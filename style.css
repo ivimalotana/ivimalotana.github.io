@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;  
+}
+
+@font-face{
+    font-family: Merienda; src: url('Fonts/Merienda/Merienda-Regular.ttf');
+}
+@font-face{
+    font-family: Sacramento; src: url('Fonts/Sacramento/Sacramento-Regular.ttf');
+}
+@font-face{
+    font-family: apple-chancery; src: url('Fonts/Apple\ Chancery.ttf');
+}
+@font-face{
+    font-family: Allison; src: url('Fonts/Allison/Allison-Regular.ttf');
+}
+@font-face{
+    font-family: Zapfino; src: url('Fonts/Zapfino/ZapfinoExtraLT-One.otf');
+}
+
+.nav{
+    color: white; font-size: 250%; font-family: Allison;
+}
+
+.nav:hover{
+    border-bottom: 0.5px solid white;
+    color: rosybrown;
+    font-size: 400%;
+    cursor: pointer;
+}
+
+.headings{
+    color:rosybrown; font-size:40px; font-family: Zapfino; text-align: center;
+    width: 60%; 
+    margin-left: 20%; 
+    margin-right: 20%;
+    font-weight: bolder;
+
+}
+.miniheadings{
+    color: rgb(0,0,0,0.7); font-size:17px; font-family: apple-chancery; text-align: center; 
+    width: 60%; 
+    margin-left: 20%;
+    margin-right: 20%;
+}

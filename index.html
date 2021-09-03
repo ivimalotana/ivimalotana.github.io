@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Ivi Malotana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-image: url('images/b4.JPG'); height: 700px; background-size:contain; width: 100%;">
+
+    <div style="height:650px; width: 50%;margin-top: 0; float: left;">
+        <div style="width: 100%;height: 550px; margin-top: 100px;">
+            <div style="margin-left: 70%;text-align: center;width: 30%; height:50px; margin-top:0px;">
+                <h2 id="h2education" class="nav" onclick="education()">education</h2>
+            </div>
+            <div style="margin-left: 15%;text-align: center; width: 60%; height:50px; margin-top:0;">
+                <h2 id="h2work" class="nav" onclick="work()">work experience</h2>
+            </div>
+            <div style="margin-left: 0%; text-align: center; width: 20%; height:50px; margin-top:0; margin-bottom:50px;">
+                <h2 id="h2skills" class="nav" onclick="skills()">skills</h2>
+            </div>
+            <div style="text-align: center; width: 100%; height:140px;">
+                <h1 onclick="main()" style="color:rosybrown; text-align: center;font-size: 600%; font-family: Zapfino; cursor: pointer;">Ivi Malotana</h1>
+            </div>
+            <div style="text-align: center; width:20%; margin-left: 0px;height:50px; margin-top: 0px;">
+                <h2 id="h2projects" onclick="projects()"class="nav">projects</h2>
+            </div>
+            <div style="text-align: center; margin-left: 15%;width: 60%; height:50px; margin-top:0;">
+                <h2 id="h2interests" onclick="interests()"class="nav">interests</h2>
+            </div>
+            <div style="text-align: center; width: 30%; margin-left: 70%; height:50px; margin-top:0;">
+                <h2 id="h2contact" onclick="contact()"class="nav">contact</h2>
+            </div>
+        </div>
+    </div>
+    <div id="idmain" style="background-color:rgb(255,255,255,0.7);height:600px;width: 50%;margin-top:100px; margin-bottom: 50px;float:right; ">
+        <div style="background-color:none; width:50%;float:left;height:250px;margin-top:200px;">
+            <h2 style="text-align: center; line-height: 60px; margin-top: 0px;font-size:48px;font-family: Zapfino; color: black;">Intern
+            </br>Software 
+            </br>Developer</h2>
+        </div>
+        <div style="background-color:none;width: 50%;height: 250px; float: right;margin-top: 150px;">
+            <div style="background-image:url('images/e2.png'); margin-top:0;height:250px; width:100%; background-size:cover;">
+            </div>
+        </div>
+    
+    </div>
+    <div id="ideducation" style="background-color:rgb(255,255,255,0.7);height:750px;width: 50%;margin-top:0px; float:right;display: none; ">
+        <h1 class="headings">Education</h1>
+        <div style="margin-top: 5%;width: 80%; margin-left: 10%; margin-right: 10%; height: 35%;">
+            <h2 class="miniheadings">From 01/01/2012 until 31/12/2016</h2>
+            <h2 class="miniheadings">I attended Queenstown Girls' High School</h2>
+            <h2 class="miniheadings">where I matriculatd with this</h2>
+            <h2 class="miniheadings" style="text-decoration: underline; cursor: pointer;" onclick="NSC()">NSC Certificate</h2>
+        </div>
+        <h2 class="headings">~</h2>
+        <div style=" margin-top: 10%;width: 80%; margin-left: 10%; margin-right: 10%; height: 35%;">
+            <h2 class="miniheadings">On 01/03/2017</h2>
+            <h2 class="miniheadings">I pursued a </h2>
+            <h2 class="miniheadings">BSc Electrical and Computer Engineering degreee</h2>
+            <h2 class="miniheadings">at UCT</h2>
+            <h2 class="miniheadings">which I am currently completing</h2>
+        </div>     
+    </div>
+    <div id="idwork" style="background-color:rgb(255,255,255,0.7);height:750px;width: 50%;margin-top:0px; float:right;display: none; ">
+        <h1 class="headings">Work Experience</h1>
+        <div style="margin-top: 10%;width: 80%; margin-left: 10%; margin-right: 10%; height: 40%;">
+            <h2 class="miniheadings">From 11/2019 until 06/2020</h2>
+            <h2 class="miniheadings">I worked as an Intern Estate Agent</h2>
+            <h2 class="miniheadings">at Huizemark where I got certified </h2>
+            <h2 class="miniheadings" style="text-decoration: underline; cursor: pointer;" onclick="EAAB()">EAAB Certificate</h2>
+            <h2 class="miniheadings">Reference: Brandon Broodryk (bbroodryk@huizemark.com)</h2>
+        </div>
+        <h2 class="headings">~</h2>
+        <div style="margin-top: 5%;width: 80%; margin-left: 10%; margin-right: 10%; height: 30%;">
+            <h2 class="miniheadings">From 01/2020 until 01/2021</h2>
+            <h2 class="miniheadings">I volunteered as a student business consultant</h2>
+            <h2 class="miniheadings">for Phaphama SEDI Consultants</h2>
+            <h2 class="miniheadings">Reference: Kiren Rutsch (+27 83 268 3368)</h2>
+        </div>
+        
+    </div>
+    <div id="idskills" style="background-color:rgb(255,255,255,0.7);height:750px;width: 50%;margin-top:0px; float:right;display: none; ">
+        <h1 class="headings">Skills</h1>
+        <div style="margin-top: 10%;width: 80%; margin-left: 10%; margin-right: 10%; height: 25%;">
+            <h2 class="miniheadings">Soft Skills</h2>
+            <p>public speaking</p>
+            <p>writing</p>
+            <p>analytical</p>
+            <p>problem solver</p>   
+            <p>innovative</p>
+            <p>creative</p>
+        </div>
+        <h2 class="headings">~</h2>
+        <div style="margin-top: 5%;width: 80%; margin-left: 10%; margin-right: 10%; height: 75%;">
+            <h2 class="miniheadings">Technical skills</h2>
+            <p>Java</p>
+            <p>Python</p>
+            <p>C++</p>
+            <p>C#</p>   
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>MySQL</p>
+            <p>PHP</p>
+            <p>Node.js</p>   
+        </div>
+        
+    </div>
+    <div id="idprojects" style="background-color:rgb(255,255,255,0.7);height:750px;width: 50%;margin-top:0px; float:right;display: none; ">
+        <h1 class="headings">Projects</h1>
+        <div style="margin-top: 10%;width: 80%; margin-left: 10%; margin-right: 10%; height: 50%;">
+            <h2 class="miniheadings" style="text-decoration: underline; cursor: pointer;" onclick="Github()">Github repository</h2>
+        </div>     
+    </div>
+    <div id="idinterests" style="background-color:rgb(255,255,255,0.7);height:750px;width: 50%;margin-top:0px; float:right;display: none; ">
+        <h1 class="headings">Interests</h1>
+        <div style="margin-top: 10%;width: 80%; margin-left: 10%; margin-right: 10%; height: 50%;">
+            <p>Fashion</p>
+            <p>UI/UX design</p>
+            <p>React development</p>
+            <p>Pilates</p>   
+        </div>
+        
+    </div>
+    <div id="idcontact" style="background-color:rgb(255,255,255,0.7);height:750px;width: 50%;margin-top:0px; float:right;display: none; ">
+        <h1 class="headings">Contact</h1>
+        <div style="margin-top: 10%;width: 80%; margin-left: 10%; margin-right: 10%; height: 50%;">
+            <h2 class="miniheadings" style="cursor: pointer;">email address: mltivi001@myuct.ac.za</h2>
+            <h2 class="miniheadings" style="text-decoration: underline; cursor: pointer;" onclick="linkedin()">linkedin</h2>   
+        </div>     
+    </div>
+    <div id="idMC" style="background-color:rgb(255,255,255,0.7);height:750px;width: 50%;margin-top:0px; float:right;display: none; ">
+        <h1 class="headings">NSC Certificate</h1>
+        <div style="background-image:url('images/MC.png'); margin-top:0;height:750px; width:100%; background-size:cover;">
+        </div> 
+    </div>
+
+</body>
+
+</html>
+
+<script>
+
+    function main(){
+        document.getElementById("idMC").style.display='none';
+        document.getElementById("idcontact").style.display = 'none';
+        document.getElementById("h2contact").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idinterests").style.display = 'none';
+        document.getElementById("h2interests").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idprojects").style.display = 'none';
+        document.getElementById("h2projects").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idskills").style.display = 'none';
+        document.getElementById("h2skills").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idwork").style.display = 'none';
+        document.getElementById("h2work").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("ideducation").style.display = 'none';
+        document.getElementById("h2education").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idmain").style.display = 'block';
+    }
+    function education(){
+        document.getElementById("idMC").style.display='none';
+        document.getElementById("idcontact").style.display = 'none';
+        document.getElementById("h2contact").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idinterests").style.display = 'none';
+        document.getElementById("h2interests").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idprojects").style.display = 'none';
+        document.getElementById("h2projects").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idskills").style.display = 'none';
+        document.getElementById("h2skills").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idwork").style.display = 'none';
+        document.getElementById("h2work").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idmain").style.display = 'none';
+        document.getElementById("ideducation").style.display = 'block';
+        document.getElementById("h2education").style.color = 'rosybrown';
+        
+    }
+
+    function work(){
+        document.getElementById("idMC").style.display='none';
+        document.getElementById("idcontact").style.display = 'none';
+        document.getElementById("h2contact").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idinterests").style.display = 'none';
+        document.getElementById("h2interests").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idprojects").style.display = 'none';
+        document.getElementById("h2projects").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idskills").style.display = 'none';
+        document.getElementById("h2skills").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idmain").style.display = 'none';
+        document.getElementById("ideducation").style.display = 'none';
+        document.getElementById("h2education").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idwork").style.display = 'block';
+        document.getElementById("h2work").style.color = 'rosybrown';
+    }
+    function skills(){
+        document.getElementById("idMC").style.display='none';
+        document.getElementById("idcontact").style.display = 'none';
+        document.getElementById("h2contact").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idinterests").style.display = 'none';
+        document.getElementById("h2interests").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idprojects").style.display = 'none';
+        document.getElementById("h2projects").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idwork").style.display = 'none';
+        document.getElementById("h2work").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("ideducation").style.display = 'none';
+        document.getElementById("h2education").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idmain").style.display = 'none';
+        document.getElementById("idskills").style.display = 'block';
+        document.getElementById("h2skills").style.color = 'rosybrown';
+    }
+    function projects(){
+        document.getElementById("idMC").style.display='none';
+        document.getElementById("idcontact").style.display = 'none';
+        document.getElementById("h2contact").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idinterests").style.display = 'none';
+        document.getElementById("h2interests").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idskills").style.display = 'none';
+        document.getElementById("h2skills").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idwork").style.display = 'none';
+        document.getElementById("h2work").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("ideducation").style.display = 'none';
+        document.getElementById("h2education").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idmain").style.display = 'none';
+        document.getElementById("idprojects").style.display = 'block';
+        document.getElementById("h2projects").style.color = 'rosybrown';
+    }
+    function interests(){
+        document.getElementById("idMC").style.display='none';
+        document.getElementById("idcontact").style.display = 'none';
+        document.getElementById("h2contact").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idprojects").style.display = 'none';
+        document.getElementById("h2projects").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idskills").style.display = 'none';
+        document.getElementById("h2skills").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idwork").style.display = 'none';
+        document.getElementById("h2work").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("ideducation").style.display = 'none';
+        document.getElementById("h2education").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idmain").style.display = 'none';
+        document.getElementById("idinterests").style.display = 'block';
+        document.getElementById("h2interests").style.color = 'rosybrown'; 
+    }
+    function contact(){
+        document.getElementById("idMC").style.display='none';
+        document.getElementById("idinterests").style.display = 'none';
+        document.getElementById("h2interests").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idprojects").style.display = 'none';
+        document.getElementById("h2projects").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idskills").style.display = 'none';
+        document.getElementById("h2skills").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idwork").style.display = 'none';
+        document.getElementById("h2work").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("ideducation").style.display = 'none';
+        document.getElementById("h2education").style.color = 'rgb(255,255,255,0.7)';
+        document.getElementById("idmain").style.display = 'none';
+        document.getElementById("idcontact").style.display = 'block';
+        document.getElementById("h2contact").style.color = 'rosybrown'; 
+    }
+    function EAAB(){
+        
+    }
+    function NSC(){
+        document.getElementById("idinterests").style.display = 'none';
+        document.getElementById("idprojects").style.display = 'none';
+        document.getElementById("idskills").style.display = 'none';
+        document.getElementById("idwork").style.display = 'none';
+        document.getElementById("ideducation").style.display = 'none';
+        document.getElementById("idmain").style.display = 'none';
+        document.getElementById("idMC").style.display='block';
+
+    }
+    function linkedin(){
+        window.open('http://linkedin.com/in/iviwe-malotana-349957201');
+    }
+    function Github(){
+        window.open('http://github.com/IviweMalotana');
+    }
+</script>
